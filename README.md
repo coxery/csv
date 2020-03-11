@@ -2,6 +2,19 @@
   <img height="90" src="https://i.imgur.com/bEG2Udy.png" alt="pprint"/>
 </p>
 
+---------------------------------------------------------
+## Changes
+
+* Only one head file needed: csv.h
+* Remove the dependency of these:
+  - [Lock-free Concurrent Queues]
+  - [Robin hood Hashing]
+* foo.read("test.csv") is blocking now.
+* foo.write_row("1", "2", "3") is blocking now.
+
+The following are the orginal ReadMe.
+---------------------------------------------------------
+
 ## Highlights
 
 * Header-only library
